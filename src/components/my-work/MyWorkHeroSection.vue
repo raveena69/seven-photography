@@ -5,7 +5,7 @@
         <div class="">
           <img
             class="img-fluid w-100"
-            src="images/hero-image1.png"
+            src="images/hero-image2.png"
             alt=""
             style="object-fit: cover"
           />
@@ -16,20 +16,18 @@
     </div>
 
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-12 col-md-6 col-xl-7 mb-lg-0">
+      <div class="hero-container-content row align-items-center">
+        <div class="col-lg-5 col-md-6 col-sm-6 mb-lg-0">
           <div class="lc-block mb-3 mb-md-5 lh-1">
             <div editable="rich">
-              <h1 class="main-title">
-                It’s all about Capturing moments and Creating memories
-              </h1>
+              <h1 class="main-title">My Work <br />Hope You Enjoy !</h1>
             </div>
           </div>
           <!-- <div class="lc-block">
                         <a class="btn btn-lg btn-dark" href="#" role="button">More Info</a>
                     </div> -->
         </div>
-        <div class="col-12 col-md-6 col-xl-5">
+        <div class="col-lg-7 col-md-6 col-sm-6">
           <div class="lc-block px-md-4 px-lg-5 lh-lg">
             <div editable="rich">
               <p class="paragraph">
@@ -55,7 +53,7 @@
 
 <script>
 export default {
-  name: "HeroSection",
+  name: "MyWorkHeroSection",
 };
 </script>
 
@@ -114,6 +112,16 @@ export default {
   .paragraph {
     text-align: left;
     padding: 30px 10px 10px 10px;
+  }
+
+  .hero-container-content {
+    margin: 10px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero-container-content {
+    margin: 40px 0 0 0;
   }
 }
 </style>

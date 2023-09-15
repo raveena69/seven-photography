@@ -35,46 +35,77 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about-me">About Me</a>
+                <a class="nav-link" href="/">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">My Services</a>
+                <a class="nav-link" href="/">My Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">My Work</a>
+                <a class="nav-link active" href="/my-work">My Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contactUs">Contact Us</a>
               </li>
-              <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu-dark">
-                                      <li><a class="dropdown-item" href="#">About Me</a></li>
-                                      <li><a class="dropdown-item" href="#">My Services</a></li>
-                                      <li><a class="dropdown-item" href="#">My Work</a></li>
-                                      <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                                      <li>
-                                        <hr class="dropdown-divider">
-                                      </li>
-                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                  </li> -->
             </ul>
           </div>
         </div>
       </div>
     </nav>
+
+    <!-- My Work Hero section start -->
+    <my-work-hero-section></my-work-hero-section>
+    <!-- My Work Hero section start -->
+
+    <!-- Galle Images section start -->
+    <galle-images></galle-images>
+    <!-- Galle Images section start -->
+
+    <!-- Nuwara-Eliya section start -->
+    <nuwara-eliya></nuwara-eliya>
+    <!-- Nuwara-Eliya section start -->
+
+    <!-- Personal Photography section start -->
+    <personal-photography></personal-photography>
+    <!-- Personal Photography section start -->
+
+    <!-- Personal Photography 1 section start -->
+    <personal-photography-1></personal-photography-1>
+    <!-- Personal Photography 1 section start -->
+
+    <!-- Personal Photography 2 section start -->
+    <personal-photography-2></personal-photography-2>
+    <!-- Personal Photography 2 section start -->
+
+    <!-- Personal Photography section start -->
+    <bottom-footer id="contactUs"></bottom-footer>
+    <!-- Personal Photography section start -->
   </div>
 </template>
 
 <script>
+import GalleImages from "./GalleImages.vue";
+import MyWorkHeroSection from "./MyWorkHeroSection.vue";
+import NuwaraEliya from "./NuwaraEliya.vue";
+import PersonalPhotography from "./PersonalPhotography.vue";
+import PersonalPhotography1 from "./PersonalPhotography1.vue";
+import PersonalPhotography2 from "./PersonalPhotography2.vue";
+import BottomFooter from "../BottomFooter.vue";
+
 export default {
-  name: "NavBar",
+  components: {
+    MyWorkHeroSection,
+    GalleImages,
+    NuwaraEliya,
+    PersonalPhotography,
+    PersonalPhotography1,
+    PersonalPhotography2,
+    BottomFooter,
+  },
+
+  name: "MyWorkInside",
 };
 </script>
 

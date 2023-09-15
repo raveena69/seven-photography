@@ -13,10 +13,11 @@
           <p class="para">
             <!-- "Welcome to the SEVEN Photography" -->
             <br />
-            Hello Everyone !!! I am Tharusha Amarasiriwardena. <br/> Through the lens, I capture the moments
-            that words cannot express and the beauty that often goes unnoticed. Join me on
-            a visual journey where pixels tell stories, emotions are frozen in time, and
-            ordinary scenes are transformed into extraordinary art.
+            Hello Everyone !!! I am Tharusha Amarasiriwardena. <br />
+            Through the lens, I capture the moments that words cannot express and the
+            beauty that often goes unnoticed. Join me on a visual journey where pixels
+            tell stories, emotions are frozen in time, and ordinary scenes are transformed
+            into extraordinary art.
 
             <br />
             <br />
@@ -31,10 +32,12 @@
             photography.
           </p>
 
-          <a href="#" class="button-wrapper">
+          <router-link to="/my-work" class="explore-my-work-wrapper">
+            <a href="#" class="button-wrapper">
               <span class="mx-2">Explore my work</span>
-              <fa icon="circle-arrow-right" class="mx-2"/>
-          </a>
+              <fa icon="circle-arrow-right" class="mx-2" />
+            </a>
+          </router-link>
         </div>
       </div>
     </div>
@@ -93,17 +96,26 @@ export default {
   padding: 40px 60px;
 }
 
-.button-wrapper{
-    border-radius: 10px;
-    background: #000;
-    color: white;color: #FFF;
-    font-family: Open Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    padding: 15px;
-    text-decoration: none;
+.button-wrapper {
+  border-radius: 10px;
+  background: #000;
+  color: white;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.explore-my-work-wrapper {
+  text-decoration: none;
+  margin-top: 20px;
+}
+.button-wrapper:hover {
+  background: #0074fc;
 }
 
 @media screen and (min-width: 390px) {
@@ -119,11 +131,11 @@ export default {
     margin: 30px 0 30px 0;
   }
 
-    .para {
-        line-height: 32px;
-        text-align: center;
-        margin-bottom: 50px;
-    }
+  .para {
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
 
   .about-me-main-title,
   .about-me-sub-title {
@@ -140,7 +152,7 @@ export default {
 }
 
 @media screen and (min-width: 992px) {
-  .para{
+  .para {
     text-align: left;
     margin-bottom: 20px;
   }
@@ -151,7 +163,7 @@ export default {
   }
 
   .about-me-container {
-    margin: 140px 0;
+    margin: 120px 0;
   }
 
   .content-container {

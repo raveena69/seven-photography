@@ -1,7 +1,7 @@
 // router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 import LandingPage from '@/components/LandingPage.vue'
-import MyWork from '@/components/my-work/MyWork.vue'
+import MyWorkInside from '@/components/my-work/MyWorkInside.vue'
 
 const routes = [
     {
@@ -11,8 +11,8 @@ const routes = [
     },
     {
         path: '/my-work',
-        name: 'MyWork',
-        component: MyWork
+        name: 'MyWorkInside',
+        component: MyWorkInside
     }
 ]
 

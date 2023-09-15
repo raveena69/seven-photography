@@ -1,21 +1,20 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <nav-bar></nav-bar>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- <nav-bar></nav-bar> -->
   <router-view></router-view>
-  <bottom-footer></bottom-footer>
+  <!-- <bottom-footer></bottom-footer> -->
 </template>
 
 <script>
-import NavBar from "./components/NavBar.vue";
-import BottomFooter from "./components/BottomFooter.vue";
+// import NavBar from "./components/NavBar.vue";
+// import BottomFooter from "./components/BottomFooter.vue";
 // import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: "App",
   components: {
-    NavBar,
-    BottomFooter,
+    // NavBar,
+    // BottomFooter,
     // HelloWorld
   },
 };
