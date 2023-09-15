@@ -159,13 +159,33 @@ export default {
   line-height: 26px;
 }
 
-@media screen and (min-width:  280px) {
+@media screen and (min-width: 390px) {
+  .all-right-reserved {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width: 280px) {
   .phone-number {
     font-size: 28px;
   }
 
   .terms-and-conditions {
     margin-top: 0;
+  }
+
+  .all-right-reserved {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
   }
 }
 
