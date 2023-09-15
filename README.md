@@ -1,4 +1,4 @@
-# seven-photography-bootstrap
+# Seven Photography
 
 ## Project setup
 ```
