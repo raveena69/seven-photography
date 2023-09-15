@@ -142,7 +142,7 @@ export default {
   font-family: Open Sans;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width:  280px) {
   .navbar-brand {
     font-size: 18px;
   }

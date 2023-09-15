@@ -86,7 +86,7 @@ export default {
   line-height: 24px;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width:  280px) {
   .paragraph {
     padding: 10px 10px;
   }

@@ -118,6 +118,39 @@ export default {
   background: #0074fc;
 }
 
+@media screen and (min-width: 280px) {
+  .about-me-container {
+    margin: 20px 0;
+  }
+
+  .content-container {
+    padding: 40px 30px;
+  }
+
+  .profile-image {
+    width: 99%;
+    height: 368px;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 30px 0 30px 0;
+    background-position: center;
+  }
+
+  .para {
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .about-me-main-title {
+    text-align: center;
+    font-size: 32px;
+  }
+  .about-me-sub-title {
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 390px) {
   .about-me-container {
     margin: 20px 0;
@@ -129,6 +162,7 @@ export default {
     border-radius: 10px;
     background-size: cover;
     margin: 30px 0 30px 0;
+    background-position: center;
   }
 
   .para {
@@ -137,7 +171,10 @@ export default {
     margin-bottom: 50px;
   }
 
-  .about-me-main-title,
+  .about-me-main-title {
+    text-align: center;
+    font-size: 50px;
+  }
   .about-me-sub-title {
     text-align: center;
   }

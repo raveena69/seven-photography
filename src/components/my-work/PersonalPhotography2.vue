@@ -56,7 +56,7 @@
         </div>
       </div>
 
-      <p class="image-sub-title">
+      <p class="image-sub-title1">
         All images appearing with the sign of Seven Photography are the exclusive property
         of Seven Photography Administration and are protected under International
         Copyright laws. The images may not be reproduced, copied, transmitted, or
@@ -95,7 +95,16 @@ export default {
   line-height: 24px;
 }
 
-@media screen and (min-width: 390px) {
+.image-sub-title1 {
+  color: #5c5c5c;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 280px) {
   .paragraph {
     padding: 10px 10px;
   }
@@ -104,6 +113,33 @@ export default {
     font-size: 28px;
   }
   .image-sub-title {
+    padding: 20px 20px 40px 20px;
+    line-height: 28px;
+  }
+
+  .image-sub-title1 {
+    padding: 20px 10px 40px 10px;
+    line-height: 28px;
+  }
+  .last-image {
+    display: none;
+  }
+
+  .image-gallery-container {
+    margin: 70px 20px;
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .paragraph {
+    padding: 10px 10px;
+  }
+
+  .image-main-title {
+    font-size: 28px;
+  }
+  .image-sub-title,
+  .image-sub-title1 {
     padding: 20px 40px 40px 40px;
     line-height: 28px;
   }

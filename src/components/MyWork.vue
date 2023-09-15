@@ -162,13 +162,17 @@ export default {
   background: #0074fc;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 280px) {
+  .my-work-container {
+    margin: 40px 24px;
+  }
+
   .paragraph {
     padding: 10px 10px;
   }
 
   .my-work-main-title {
-    font-size: 47px;
+    font-size: 32px;
   }
 
   .image1 {
@@ -214,6 +218,20 @@ export default {
     text-align: center;
     padding-left: 5px;
     margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .my-work-container {
+    margin: 40px 50px;
+  }
+
+  .paragraph {
+    padding: 10px 10px;
+  }
+
+  .my-work-main-title {
+    font-size: 47px;
   }
 }
 

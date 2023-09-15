@@ -79,6 +79,24 @@ export default {
   text-align: left;
 }
 
+@media screen and (min-width: 280px) {
+  .img-fluid {
+    height: 250px;
+  }
+
+  .main-title {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  .paragraph {
+    text-align: center;
+    line-height: 32px;
+    padding: 10px 30px;
+  }
+}
+
 @media screen and (min-width: 390px) {
   .img-fluid {
     height: 250px;

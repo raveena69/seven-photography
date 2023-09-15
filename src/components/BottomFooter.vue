@@ -159,7 +159,7 @@ export default {
   line-height: 26px;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width:  280px) {
   .phone-number {
     font-size: 28px;
   }

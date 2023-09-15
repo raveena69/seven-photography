@@ -180,6 +180,20 @@ export default {
   line-height: 26px;
 }
 
+@media screen and (min-width: 280px) {
+  .my-service-container {
+    margin: 100px 30px;
+  }
+
+  .paragraph {
+    padding: 10px 10px;
+  }
+
+  .about-me-main-title {
+    font-size: 32px;
+  }
+}
+
 @media screen and (min-width: 390px) {
   .my-service-container {
     margin: 100px 50px;
