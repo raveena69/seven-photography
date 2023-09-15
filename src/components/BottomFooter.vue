@@ -5,9 +5,10 @@
         <div class="">
           <p class="contact-us">Contact us</p>
           <div class="">
-            <div class="">
-              <i class="fa fa-phone-square mr-3 text-white" aria-hidden="true"></i>
-              <i class="fa fa-whatsapp mx-3 text-white" aria-hidden="true"></i>
+            <div class="my-1">
+              <i class="fa fa-phone-square text-white" aria-hidden="true"></i>
+              <span class="mx-3 text-white">|</span>
+              <i class="fa fa-whatsapp mx-0 text-white" aria-hidden="true"></i>
             </div>
             <h2 class="phone-number">+(94) 70 155 0547</h2>
           </div>

@@ -31,17 +31,17 @@
           <div class="lc-block px-md-4 px-lg-5 lh-lg">
             <div editable="rich">
               <p class="paragraph">
-                A excellent photograph conveys information, moves the viewer's emotions,
-                and changes them as a result of being seen. In a single word, it is
-                efficient.
+                It's incredible how photography can catch even a fleeting glimpse of
+                something beautiful. Anyone who looks closely will notice that photography
+                is a record of your life.
 
                 <br />
                 <!-- Although there is beauty everywhere, recognizing and composing it is what
                 distinguishes a snapshot from a photograph. -->
                 <br />
-                I love the people, who I capture through my camera. They are, after all,
-                my closest companions. Although I have never met or know very little about
-                most of them, I appear to be living with them in the image.
+                Photographs preserve an irreplaceable moment that can never be recreated.
+                Photography is a form of observational art. It involves discovering
+                something intriguing in an unremarkable environment.
               </p>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default {
 
   .paragraph {
     text-align: left;
-    padding: 30px 10px 10px 10px;
+    padding: 24px 10px 10px 10px;
   }
 
   .hero-container-content {

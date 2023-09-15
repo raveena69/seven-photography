@@ -176,7 +176,7 @@ export default {
 
   .profile-image {
     width: 50%;
-    height: 820px;
+    height: 860px;
     border-radius: 10px;
     background-size: cover;
   }

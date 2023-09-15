@@ -5,12 +5,12 @@
         <div class="row">
           <p class="my-work-sub-title">My Work</p>
           <h2 class="my-work-main-title">
-            Nature creates the beauty, My camera and I are the witness
+            Nature creates the beauty, <br />
+            My camera and I are the witness
           </h2>
           <p class="paragraph">
-            Lorem ipsum dolor sit amet consectetur. Sit et tincidunt sagittis posuere.
-            Gravida eu pretium lacus arcu elementum sit. Tincidunt fringilla amet volutpat
-            ullamcorper posuere ac. Velit arcu purus nunc pulvinar.
+            I've always felt enthusiastic by photography's technical aspects, especially
+            when using a camera rather than a simple point-and-shoot.
           </p>
         </div>
 
@@ -27,7 +27,8 @@
               <h2 class="image-main-title">Galle Fort</h2>
 
               <p class="image-sub-title">
-                Lorem ipsum dolor sit amet consectetur. Sit et tincidunt sagittis posuere.
+                The architecture of Galle is a remarkable example of both European and
+                South Asian design.
               </p>
               <!-- Image end -->
             </div>
@@ -43,7 +44,8 @@
               <h2 class="image-main-title">Nuwara Eliya</h2>
 
               <p class="image-sub-title">
-                Lorem ipsum dolor sit amet consectetur. Sit et tincidunt sagittis posuere.
+                In the middle hills of Sri Lanka's tea heartland is the city of Nuwara
+                Eliya.
               </p>
               <!-- Image end -->
             </div>
@@ -59,7 +61,8 @@
               <h2 class="image-main-title">Model Photography</h2>
 
               <p class="image-sub-title">
-                Lorem ipsum dolor sit amet consectetur. Sit et tincidunt sagittis posuere.
+                The term "model photography" can also refer to a standard procedure where
+                a photographer takes pictures.
               </p>
               <!-- Image end -->
             </div>
@@ -131,7 +134,7 @@ export default {
 .image-sub-title {
   color: #5c5c5c;
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -210,13 +213,13 @@ export default {
   .image-sub-title {
     text-align: center;
     padding-left: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .paragraph {
-    padding: 10px 60px;
+    padding: 10px 60px 30px 60px;
   }
 
   .my-work-main-title {
@@ -304,7 +307,7 @@ export default {
   .image-sub-title {
     text-align: left;
     padding-left: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
 }
 </style>
