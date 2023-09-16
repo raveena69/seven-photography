@@ -59,7 +59,13 @@
 
     <div class="lower-footer-container">
       <h2 class="all-right-reserved">
-        All Rights Reserved. © 2023 RaveenaAmarasiriwardena
+        All Rights Reserved. © 2023
+        <a
+          href="https://www.linkedin.com/in/raveena-amarasiriwardena/"
+          target="_blank"
+          class="linkedin-url"
+          >RaveenaAmarasiriwardena</a
+        >
       </h2>
     </div>
   </div>
@@ -150,24 +156,14 @@ export default {
   margin-left: 10px;
 }
 
-.all-right-reserved {
+.all-right-reserved,
+.linkedin-url {
   color: #fff;
   font-family: "Open Sans";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-}
-
-@media screen and (min-width: 390px) {
-  .all-right-reserved {
-    color: #fff;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-  }
 }
 
 @media screen and (min-width: 280px) {
@@ -179,10 +175,28 @@ export default {
     margin-top: 0;
   }
 
-  .all-right-reserved {
+  .all-right-reserved,
+  .linkedin-url {
     color: #fff;
     font-family: "Open Sans";
     font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+  }
+
+  .linkedin-url:hover {
+    text-decoration: underline;
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .all-right-reserved,
+  .linkedin-url {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
